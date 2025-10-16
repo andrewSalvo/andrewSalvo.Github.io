@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Project Management II — Problem Statement</title>
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; line-height:1.5; margin: 30px; color:#111; }
+    header { margin-bottom: 20px; }
+    h1 { font-size: 1.6rem; margin:0; }
+    .meta { color:#444; margin-top:6px; font-size:0.95rem; }
+    section { margin-top: 18px; padding: 14px; border-radius:8px; background:#fbfbfb; box-shadow: 0 1px 4px rgba(0,0,0,0.04); }
+    dl dt { font-weight:700; margin-top:10px; }
+    code { background:#eee; padding:2px 6px; border-radius:4px; }
+    .note { color:#555; font-size:0.95rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Problem Statement — Reduce Student Wait Time at Campus Printing Stations</h1>
+    <div class="meta">Course: Project Management II | Author(s): <strong>Team Member 1</strong>, Team Member 2</div>
+  </header>
+
+  <section>
+    <h2>1. Concise Problem Statement</h2>
+    <p>
+      Students experience long, unpredictable wait times at the three main campus printing stations during peak hours,
+      resulting in missed deadlines and lost study time. The current system lacks real-time queue visibility and routing suggestions.
+      This project will design and prototype a low-cost digital solution to reduce average wait time by at least <strong>30%</strong> during peak hours,
+      and provide accurate queue information to students.
+    </p>
+  </section>
+
+  <section>
+    <h2>2. Why it matters (Impact)</h2>
+    <ul>
+      <li>Prevents missed deadlines and reduces student stress.</li>
+      <li>Improves study efficiency and fairness for students without home printers.</li>
+      <li>Offers near-term, low-cost improvements with potential campus-wide benefits.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>3. Stakeholders</h2>
+    <ul>
+      <li><strong>Primary:</strong> Students who use campus printing services</li>
+      <li><strong>Secondary:</strong> Campus IT/Printing Services, Library staff, Student Government</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>4. Scope</h2>
+    <dl>
+      <dt>In scope</dt>
+      <dd>Baseline data collection, prototype UI for queue visibility, basic re-routing suggestions, 10–20 user usability test.</dd>
+      <dt>Out of scope</dt>
+      <dd>Full campus deployment, billing/payment changes, large hardware purchases.</dd>
+    </dl>
+  </section>
+
+  <section>
+    <h2>5. Constraints, Assumptions & Risks</h2>
+    <dl>
+      <dt>Constraints</dt>
+      <dd>6-week timeline, budget \$500, limited direct access to printer queue APIs without IT sign-off.</dd>
+      <dt>Assumptions</dt>
+      <dd>Peak hours: Mon–Thu 10:00–13:00 and 17:00–20:00. IT will allow an API adapter later.</dd>
+      <dt>Risks & mitigation</dt>
+      <dd>Risk: no API access &rarr; Mitigation: sampling / voluntary check-ins & design API adapter for integration.</dd>
+    </dl>
+  </section>
+
+  <section>
+    <h2>6. Success Criteria & Deliverables</h2>
+    <ul>
+      <li>Measured reduction in average wait time ≥ 30% during pilot peak hours.</li>
+      <li>Prototype web UI with queue estimates within ±2 minutes accuracy for 80% of samples.</li>
+      <li>Usability test report showing ≥ 70% participants report time saved.</li>
+      <li>Deliverables: baseline data, prototype, test report, README + deployment notes.</li>
+    </ul>
+  </section>
+
+  <p class="note">Last updated: <strong>DATE</strong>. Replace <code>Team Member 1</code> with actual names before publishing.</p>
+</body>
+</html>
