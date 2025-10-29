@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Project Management 4 — Sketches</title>
+  <style>
+    :root { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+    body { margin: 2rem; line-height: 1.5; }
+    .wrap { max-width: 900px; margin: 0 auto; }
+    img { max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 12px; }
+    .meta { margin: 1rem 0; font-size: 0.95rem; }
+    .links a { display: inline-block; margin-right: 1rem; }
+    figure { margin: 0; }
+    figcaption { font-size: 0.9rem; color: #555; margin-top: 0.5rem; }
+    .tag { display:inline-block; padding: 0.15rem 0.5rem; border:1px solid #ddd; border-radius:999px; font-size:0.8rem; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>Sketches</h1>
+    <p class="meta">
+      <span class="tag">PM4</span>
+      Using course principles (clarity, hierarchy, consistency, feedback), we produced three sketches that align with our problem statement and affinity diagram.
+    </p>
+
+    <!-- Display ONE of the sketches as the image on the page -->
+    <figure>
+      <img src="assets/sketches/sketch1.jpg"
+           alt="Sketch 1: Primary flow of the product showing the main screen, key actions, and navigation." />
+      <figcaption>Sketch 1 — Primary task flow overview.</figcaption>
+    </figure>
+
+    <div class="links" style="margin-top:1rem;">
+      <!--  -->
+      <a href="assets/sketches/sketches.pdf" target="_blank" rel="noopener">Download all 3 sketches (PDF)</a>
+      <!-- Optional: link the individual images too -->
+      <a href="assets/sketches/sketch2.jpg" target="_blank" rel="noopener">Sketch 2 (image)</a>
+      <a href="assets/sketches/sketch3.jpg" target="_blank" rel="noopener">Sketch 3 (image)</a>
+    </div>
+
+    <!-- Optional quick rationale section (good for graders) -->
+    <section style="margin-top:1.5rem;">
+      <h2 style="margin-bottom:0.25rem;">Rationale (brief)</h2>
+      <ul>
+        <li><strong>Clarity:</strong> Minimal elements per screen; labels for primary actions.</li>
+        <li><strong>Hierarchy:</strong> Title &gt; primary CTA &gt; secondary actions; consistent spacing.</li>
+        <li><strong>Consistency:</strong> Reused patterns for lists, buttons, and modals.</li>
+        <li><strong>Feedback:</strong> States for loading, error, and success are sketched.</li>
+      </ul>
+    </section>
+
+    </footer>
+  </main>
+</body>
+</html>
